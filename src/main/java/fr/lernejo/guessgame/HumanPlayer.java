@@ -26,7 +26,7 @@ public class HumanPlayer implements Player {
         }
         else
         {
-            log.log("Two low ! Try again, please.");
+            log.log("Too low ! Try again, please.");
         }
 
     }

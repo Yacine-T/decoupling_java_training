@@ -27,7 +27,7 @@ public class ComputerPlayer implements Player {
         }
         else
         {
-            log.log("bigger");
+            log.log("bigger !");
             this.inf = (this.inf + this.sup)/2;
         }
     }

@@ -21,7 +21,7 @@ public class Launcher {
         {
             System.out.println("Please enter one of the following argument when you launch the program : \n");
             System.out.println("1/ -interacive : guess the age of the captain by yourself in limit of attempt given by the computer. \n");
-            System.out.println("2/ -auto : enter the age of the captain let the computer to guess it in the thousand limit of attempt. \n");
+            System.out.println("2/ -auto : enter the age of the captain and let the computer to guess it in the thousand limit of attempt. \n");
         }
     }
 

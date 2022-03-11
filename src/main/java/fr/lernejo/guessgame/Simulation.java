@@ -39,7 +39,9 @@ public class Simulation {
             this.player.respond(true);
             return false;
         }
-        logger.log("Value founded !! Well done !!");
+        logger.log("found !!");
+        logger.log("win !!");
+        logger.log("bravo !!");
         return true;
     }
 

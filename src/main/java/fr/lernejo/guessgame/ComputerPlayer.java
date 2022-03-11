@@ -22,12 +22,12 @@ public class ComputerPlayer implements Player {
     public void respond(boolean lowerOrGreater) {
         if (!lowerOrGreater)
         {
-            log.log("Too high !");
+            log.log("smaller !");
             this.sup = (this.inf + this.sup)/2;
         }
         else
         {
-            log.log("Two low !");
+            log.log("bigger");
             this.inf = (this.inf + this.sup)/2;
         }
     }

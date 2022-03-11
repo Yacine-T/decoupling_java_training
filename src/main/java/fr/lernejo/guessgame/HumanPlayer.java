@@ -22,11 +22,11 @@ public class HumanPlayer implements Player {
     public void respond(boolean lowerOrGreater) {
         if (!lowerOrGreater)
         {
-            log.log("Too high ! Try again, please.");
+            log.log("smaller !");
         }
         else
         {
-            log.log("Too low ! Try again, please.");
+            log.log("bigger !");
         }
 
     }

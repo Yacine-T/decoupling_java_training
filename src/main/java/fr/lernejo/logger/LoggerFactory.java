@@ -4,6 +4,6 @@ public class LoggerFactory {
 
     public static Logger getLogger(String name)
     {
-        return new ContextualLogger(name, new CompositeLogger(new FileLogger("log.txt"), new ConsoleLogger()));
+        return new ContextualLogger(name, new CompositeLogger(new ConsoleLogger(), new FilteredLogger(new FileLogger("log.txt"), className -> name.contains("simulation"))));
     }
 }

@@ -25,10 +25,7 @@ public class Simulation {
      * @return true if the player have guessed the right number
      */
     private boolean nextRound() {
-        logger.log("Waiting for answer from human player ...");
         long answer = this.player.askNextGuess();
-        logger.log("Player answered " + answer);
-        logger.log("Checking if entered value is the correct one ...");
         if(answer > this.numberToGuess)
         {
             this.player.respond(false);
@@ -40,8 +37,6 @@ public class Simulation {
             return false;
         }
         logger.log("found !!");
-        logger.log("win !!");
-        logger.log("bravo !!");
         return true;
     }
 
